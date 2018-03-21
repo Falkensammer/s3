@@ -11,12 +11,13 @@ body {
 
 #header {
     text-align: center;
-    background-image: url("images/header.jpg");      
+    background-image: url("images/header.jpg");  
+        
 }
 #header h2 { font-size: 4em;
     color: green;
     margin: 0;
-    papping: 1em,0;
+    padding: 1em,0;
 }
 #header h3 {color: green;
 }
@@ -25,26 +26,42 @@ body {
     margin: 0;
 }
 
-.author {
+.author {text-align: center;
 }
-.author img {
+.author img {text-align: center;
+    border: 4px solid gray;
+    border-radius: 50%;
+    margin-top: -50px;
+
 }
-.author p {
+.author p {font-size: 0,9em;
+    font-style: italic;
 }
 
 .article {
+    text-align: left;
+    width: 70%;
+    margin: auto;
 }
 .article figure {
+    margin-left: 0;
 }
 .article figure img {
+    width: 90%;
+    margin-left;
 }
 .article figure figcaption {
+    margin-left: -12em;
+    width: 11.5em;
+    float: left;
+
 }
 
 #map {
 }
 
-#footer {
+#footer { padding: 1em 0 3em 0;
+    float: right;
 }
 #footer .back {
 }
@@ -54,6 +71,7 @@ body {
 a:link, a:visited {
 }
 .gray, .gray a:link, .gray a:visited {
+    color: gray;
 }
 .white, .white a:link, .white a:visited {
 }
