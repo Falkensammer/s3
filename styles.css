@@ -10,12 +10,19 @@ body {
 }
 
 #header {
+    text-align: center;
+    background-image: url("images/header.jpg");      
 }
-#header h2 {
+#header h2 { font-size: 4em;
+    color: green;
+    margin: 0;
+    papping: 1em,0;
 }
-#header h3 {
+#header h3 {color: green;
 }
-#header h4 {
+#header h4 { font-size: 0.75em;
+    font style: italic;
+    margin: 0;
 }
 
 .author {
